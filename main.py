@@ -13,8 +13,8 @@ def runLogin():
 def verifyCode(sendPrompt):
 
     recieverAddress = sendPrompt
-    senderAddress = "daani.websites@gmail.com"
-    password = "vtca xnly reqb gmjz"
+    senderAddress = "senderEmail@gmail.com"
+    password = "your sender email password" # READ - Google gives you a new custom password, visit Google's app password.
     subject = "Verification Code"
     body = "Your verification code is " + str(genCode)
 
